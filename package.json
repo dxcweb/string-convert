@@ -2,7 +2,7 @@
   "name": "string-convert",
   "displayName": "String Convert",
   "description": "String Convert : FooBar → foo_bar → fooBar → foo-bar → FooBar ...",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "dxcweb",
   "repository": "https://github.com/dxcweb/string-convert",
   "engines": {
@@ -19,8 +19,8 @@
     "keybindings": [
       {
         "command": "extension.stringConvert",
-        "key": "ctrl+shift+u",
-        "mac": "cmd+shift+u",
+        "key": "ctrl+shift+t",
+        "mac": "cmd+shift+t",
         "when": "editorTextFocus"
       }
     ]
