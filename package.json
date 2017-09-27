@@ -1,0 +1,42 @@
+{
+  "name": "string-convert",
+  "displayName": "String Convert",
+  "description": "String Convert : FooBar → foo_bar → fooBar → foo-bar → FooBar ...",
+  "version": "0.0.2",
+  "publisher": "dxcweb",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.stringConvert"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "extension.stringConvert",
+        "key": "ctrl+shift+u",
+        "mac": "cmd+shift+u",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2",
+    "vscode": "^1.1.5",
+    "mocha": "^3.5.0",
+    "eslint": "^4.6.1",
+    "@types/node": "^7.0.0",
+    "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "underscore.string": "^3.3.4"
+  }
+}
