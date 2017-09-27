@@ -2,7 +2,7 @@
   "name": "string-convert",
   "displayName": "String Convert",
   "description": "String Convert : FooBar → foo_bar → fooBar → foo-bar → FooBar ...",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "dxcweb",
   "repository": "https://github.com/dxcweb/string-convert",
   "engines": {
