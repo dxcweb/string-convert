@@ -20,7 +20,7 @@
       {
         "command": "extension.stringConvert",
         "key": "ctrl+alt+t",
-        "mac": "cmd+control+t",
+        "mac": "cmd+ctrl+t",
         "when": "editorTextFocus"
       }
     ]
